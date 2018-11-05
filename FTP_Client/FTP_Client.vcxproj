@@ -45,7 +45,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -180,6 +180,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CConnectDlg.h" />
+    <ClInclude Include="FolderSelectDlg.h" />
     <ClInclude Include="FTP_Client.h" />
     <ClInclude Include="FTP_ClientDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -188,6 +189,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CConnectDlg.cpp" />
+    <ClCompile Include="FolderSelectDlg.cpp" />
     <ClCompile Include="FTP_Client.cpp" />
     <ClCompile Include="FTP_ClientDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
